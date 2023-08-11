@@ -25,7 +25,7 @@ body {
     filter: brightness(0.75);
 }
 #phone.unlocked {
-    background-image: url('/assets/wallpaper.webp');
+    background-image: url('assets/wallpaper.webp');
     filter: brightness(1.1);
 }
 
