@@ -12,8 +12,7 @@ let isLocked = true
 
 const setTime = () => {
     const d = new Date
-
-    time.innerText = d.toLocaleTimeString('en-us').slice(0, 5)
+    time.innerText = d.toLocaleTimeString('en-us').split(':').slice(0, 2).join(':')
     date.innerText = d.toLocaleDateString()
     day.innerText = d.toLocaleString('en-us', {  weekday: 'long' })
 }
